@@ -1,0 +1,18 @@
+.open {
+  height: 100vh;
+  width: 100%;
+}
+.toindex {
+  width: 200rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  line-height: 100rpx;
+  position: absolute;
+  left: 50%;
+  bottom: 140rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+

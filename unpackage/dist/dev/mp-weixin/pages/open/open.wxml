@@ -1,0 +1,1 @@
+<block wx:if="{{newMovies.subjects.length}}"><view><image class="open" src="{{newMovies.subjects[0].images.large}}"></image><view data-event-opts="{{[['tap',[['toIndex',['$event']]]]]}}" class="toindex" bindtap="__e">进入主页</view></view></block>
